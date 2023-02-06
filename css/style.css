@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+:root{
+	--color-bg-gris:#f8f8f8;
+	--color-verde:#4caf50;
+	--color-negro:#090909; 
+	--color-magenta:#EB3C7C;
+	--color-amarillo-normal:#E2E001;
+}
+
+#header{
+	position:absolute !important;
+	width:100% !important;
+	background-color:transparent !important;
+}
+
+#header{
+	font-family: 'Manrope';
+	font-size: 30px;
+}
+
+.nav-link{
+	font-family: 'Manrope';	
+	font-size: 20px;
+}
+
+.nav-link.active{
+	font-weight: 600!important;
+	color: var(--color-magenta)!important;
+	
+	}
+	
+.btn{
+	border-radius: 90px;
+}
+
+.btn-shop{
+	background-color: var(--color-negro);
+	margin-left: 20px;
+}
+.btn-shop img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#nav-link:active{
+	color: var(--color-magenta);
+}
+
+
+#hero{
+	background-image: url("../img/hero-fondo.jpg");
+	background-repeat: no-repeat;
+ 	background-size: cover;	
+}
+
+#hero h1{
+	font-family: Ruthligos; 
+	font-size: 280px;
+	color: var(--color-negro);
+	text-shadow: 2px 2px 2px var(--color-negro);
+	margin-bottom: -80px;
+	}
+
+#hero h2{
+	font-family: 'Manrope';
+	font-size: 80px;
+	color: var(--color-negro);
+	margin-top: 100px;
+	margin-bottom: -60px;
+	font-weight: 100;
+
+}
+
+
+.btn-grande{
+	font-family: 'Manrope';
+	font-size: 32px;
+	background-color: var(--color-magenta);
+	color: var	(--color-bg-gris);
+	margin-bottom: 150px;
+	padding: 12px 52px;
+	box-shadow: 2px 2px 9px 0.5px #b3b3b3;
+
+}
+
+
+#form h4{
+padding-bottom: 10px;
+	font-family: Huglove;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+#form h1{
+padding: 20px 0px;
+font-family: 'Manrope';
+text-transform: uppercase;
+	color: #FFF;
+	font-weight: 500;
+	
+}
+
+#form h2{
+	font-size: 180px;
+	font-family: Ruthligos;
+	color: #080808;
+	text-shadow: 2px 2px 2px var(--color-negro);
+
+}
+
+#form p{
+font-family: 'Manrope';
+background-color: #fff;
+padding: 20px 30px;
+opacity: 85%;
+font-size: 18px;
+}
+
+#form{
+	background-image: url("../img/cursos-fondo2.jpg");
+	background-size: cover;
+	padding: 120px 0px;
+}
+
+#form .info-form{
+	background-color: #E2C300;
+	opacity: 80%;
+	padding: 50px 0px;
+	margin: 100px 150px;
+	text-align:center;
+	box-shadow: 0px 0px 30px 0px #000;
+	border-radius: 2% 2%;
+}
+
+#form .mt-2{
+margin: 0px -20px;
+}
+
+input{
+background-color: var(--color-magenta);
+	color: #E2E001;
+	text-transform: lowercase;
+	padding: 5px 25px;
+	border-color: var(--color-magenta);
+	border-radius: 50px 50px 50px 50px;
+	font-family: 'Manrope';
+}
+
+
+
+#descuento{
+	text-align: center;
+	background-image: url("../img/WhatsApp Image 2023-02-05 at 7.46.33 PM.jpeg");
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+	
+}
+
+#descuento img{
+	align-content: center;
+	padding: 60px 30px 5px;
+	box-shadow: 2px 2px 9px 0.5px #b3b3b3;
+}
+
+#descuento h3{
+	padding: 60px 30px 5px;
+	font-size: 60px;
+	font-weight: 400;
+	Color: var(--color-negro);
+}
+
+#descuento h1{
+	padding: 5px 3px 5px;
+	font-size: 100px;
+	font-weight: 400;
+	font-family: Ruthligos;
+	color: var(--color-magenta);
+	text-shadow: 2px 2px 2px var(--color-bg-gris);
+
+}
+
+#descuento p{
+	font-size: 20px;
+	font-weight: 400;
+	Color: var(--color-negro);
+	font-family: 'Manrope';
+    padding: 20px 30px;
+	text-align: justify;
+	
+}
+
+#descuento .btn,
+.btn-engage{
+	background-color: var(--color-magenta);
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	font-family: 'Manrope';
+	font-size: 16px;
+	margin-bottom: 150px;
+	padding: 12px 52px;
+	box-shadow: 2px 2px 9px 0.5px #b3b3b3;
+
+
+}
+
+#descuento .btn:hover{
+	background-color:  #fff;
+	color: #000000;
+	font-family: 'Manrope';
+	font-size: 16px;
+	margin-bottom: 150px;
+	padding: 12px 52px;
+	box-shadow: 2px 2px 9px 0.5px #b3b3b3;
+
+}
+
+#blog{
+	background-image: url("../img/pink-blue-stationery-creatively-depicted-wall.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 60% 0;
+	padding-top:5%;
+	text-align: center;
+	color: #000;
+	
+	
+}
+
+#blog h3{
+	text-align: center;
+	font-family: 'Manrope';
+}
+
+
+.btn-blog{
+	background-color: #EB3C7C;
+border-radius: 50px;
+padding: 15px 50px;
+color: #FFF;
+font-size: 23px;
+position:right;
+	font-family: 'Manrope';
+}
+
+.blog-logo{
+	text-align: center;
+}
+.square{
+	background-color: #FFF;
+	height: 300px;
+	width: 1290px;
+	border-radius: 19px;
+	padding-top: 30px;
+	padding-bottom: 60px 6;
+	float: 20px;
+
+}
+
+.img-nota{
+	height:250px;
+	width:250px;
+	border-radius: 150px;
+}
+
+#blog h2{
+	font-size: 15px;
+	font-family: 'Manrope';
+	
+}
+
+#blog h4{
+	font-size: 20px;
+	font-weight: -3px;
+	font-family: 'Manrope';
+	
+}
+.square2{
+	background-color: #FFF;
+	height: 300px;
+	width: 1290px;
+	border-radius: 19px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+.img-hojas{
+	height:250px;
+	width:250px;
+	border-radius: 150px
+}
+
+.square3{
+	background-color: #FFF;
+	height: 300px;
+	width: 1290px;
+	border-radius: 19px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+.img-amarillo{
+	height:250px;
+	width:250px;
+	border-radius: 150px
+}
