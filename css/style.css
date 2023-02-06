@@ -78,7 +78,7 @@
 	font-family: 'Manrope';
 	font-size: 32px;
 	background-color: var(--color-magenta);
-	color: var	(--color-bg-gris);
+	color: var(--color-amarillo-normal);
 	margin-bottom: 150px;
 	padding: 12px 52px;
 	box-shadow: 2px 2px 9px 0.5px #b3b3b3;
@@ -308,3 +308,9 @@ position:right;
 	width:250px;
 	border-radius: 150px
 }
+
+body {
+  background-color: #EDDBEF
+;
+}
+
